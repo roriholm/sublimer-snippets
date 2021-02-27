@@ -1,0 +1,26 @@
+--seteq-- A proof skeleton for set equality
+($\subseteq$) Take $$1 \in $2$. 
+ 
+Then $$1 \in $3$.
+ 
+($\supseteq$) Take $$1 \in $3$.
+ 
+Then $$1 \in $2$.
+ 
+Conclude $$2 = $3$.
+
+--iff-- A proof skeleton for iff proofs
+($\Rightarrow$) Suppose $1.
+... Then $2.
+
+($\Leftarrow$) Suppose $2.
+... Then $1.
+
+Conclude $1 iff $2.
+
+--al-- Quick equation aligner
+\begin{align*} 
+    $1 &=  $2 \\ 
+       &=  $3
+\end{align*}
+
